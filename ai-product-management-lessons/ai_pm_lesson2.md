@@ -17,9 +17,7 @@ Lesson 2 dives into **Research Cycles & Model Development**, where you'll learn:
 
 ---
 
-## Additional Resources
-
-*End of Lesson 1*4: Try Model B (promising, 73% accuracy)
+*End of Lesson 1* 4: Try Model B (promising, 73% accuracy)
 Week 5-6: Optimize Model B (81% accuracy)
 Week 7-8: Realize Model B doesn't handle edge cases
 Week 9-10: Hybrid approach (87% accuracy, ready to ship)
