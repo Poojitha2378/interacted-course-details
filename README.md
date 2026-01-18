@@ -10,7 +10,8 @@ The uncertainty paradox: unpredictable model performance vs. sprint commitments
 Research spikes vs. feature sprints
 Defining "done" when accuracy is probabilistic
 
-### Lesson 2: Hybrid Agile-Research Workflows
+### Lesson 2: Hybrid Agile-Research Workflows [here](https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/ai_pm_lesson2.md)
+
 Two-track development: research cycles + engineering sprints
 Sprint planning with experimentation buffers
 Success metrics beyond velocity (model performance gates, user value milestones)
