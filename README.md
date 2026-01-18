@@ -1,7 +1,7 @@
 # Agentic AI Product Execution: From Strategy to Launch
 A practical guide for AI Product Managers
 
-## Chapter 1: Translating AI Strategy into Delivery
+## [Chapter 1: Translating AI Strategy into Delivery](https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/overview.md)
 Adapting Agile for Agentic AI Product Development
 
 ### Lesson 1: Why Traditional Agile Falls Short for Agentic AI Products [here](https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/ai_pm_lesson1.md)
