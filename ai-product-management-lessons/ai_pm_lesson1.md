@@ -19,6 +19,189 @@ This chapter equips you with hybrid frameworks that preserve Agile's collaborati
 **AI PM Mindset Prerequisite:**
 Before diving into Agile adaptations, internalize this: **Launch is the beginning, not the milestone**. Traditional software ships and stabilizes. AI products ship and evolve. Models degrade, data drifts, user behavior changes. Your job isn't to build a model—it's to ensure the organization realizes value from AI continuously.
 
+## Next Steps: Preparing for Lesson 2
+
+Lesson 2 dives into **Research Cycles & Model Development**, where you'll learn:
+- How to evaluate pre-trained models for your use case
+- When to fine-tune vs. use prompt engineering vs. build custom
+- The difference between reasoning models and speed models
+- What agentic AI is and when to use it
+- How to work effectively with ML research teams
+
+**Pre-Reading:**
+- Review your current product roadmap: Which features are deterministic? Which are AI-powered?
+- Identify one feature to pilot with two-track development
+- Calculate current team capacity allocation: What % goes to new features vs. maintaining existing AI models?
+
+**Discussion Prompt for Your Team:**
+"If we adopted two-track development, what would our discovery track focus on? What would stay in the delivery track?"
+
+---
+
+*End of Lesson 1* Week 4: Try Model B (promising, 73% accuracy)
+Week 5-6: Optimize Model B (81% accuracy)
+Week 7-8: Realize Model B doesn't handle edge cases
+Week 9-10: Hybrid approach (87% accuracy, ready to ship)
+```
+
+Notice: 8 weeks of research before 2 weeks of engineering delivery.
+
+**Why This Matters:**
+A research spike implies "we'll figure this out in 1-2 sprints, then build it." AI research doesn't work that way. You might:
+- Discover a pre-trained model solves your problem in 3 days
+- Spend 3 months fine-tuning and realize RAG would work better
+- Find that no current approach meets your accuracy threshold
+
+**The Trap:**
+Teams force-fit AI research into 2-week sprints, leading to:
+- **Premature convergence**: Shipping the first approach that "kind of works" to meet sprint deadlines
+- **Frustrated researchers**: ML engineers feel pressured to commit to unknowable timelines
+- **Scope creep**: "Just one more experiment" turns sprints into 3-4 week cycles
+
+**The AI-Adapted Approach:**
+Separate research cycles from delivery sprints (covered in Lesson 2). Research runs in variable-length cycles (1-6 weeks) while engineering maintains 2-week sprints for infrastructure, API development, and integration work.
+
+#### 3. Defining "Done" When Accuracy Is Probabilistic
+
+**The Traditional Definition of Done:**
+```
+☑ Code written and reviewed
+
+☑ Unit tests pass (100%)
+
+☑ Integration tests pass (100%)
+
+☑ Documentation complete
+
+☑ Deployed to production
+
+```
+
+**AI's Problem:**
+What does "tests pass" mean when your model is 83% accurate? Is that "done" or "still in progress"?
+
+**Real Scenarios That Break Traditional DoD:**
+
+**Scenario A: The Moving Target**
+Your customer support chatbot achieves 90% accuracy on test data. You ship it. Week 1 in production: 87% accuracy. Week 4: 82% accuracy. Week 8: 78% accuracy.
+
+Why? User queries shifted, new product features launched, competitors changed the market. The model "worked" when shipped but degraded over time. Was it ever "done"?
+
+**Scenario B: The Edge Case Explosion**
+Your fraud detection model achieves 95% accuracy in testing. Production reveals:
+- 98% accuracy on credit cards
+- 91% accuracy on debit cards
+- 67% accuracy on buy-now-pay-later transactions (which didn't exist in training data)
+
+Overall accuracy: 95%. Business impact: thousands of false positives on BNPL transactions. Is this "done"?
+
+**Scenario C: The Acceptable Failure Rate**
+Your AI-powered document parser handles:
+- 95% of invoices correctly
+- 4% with minor errors (human reviews quickly)
+- 1% catastrophic failures (completely wrong)
+
+Is 95% "done"? What if that 1% costs $100K in losses?
+
+**Why Traditional DoD Fails AI:**
+- **Probabilistic success**: No test will ever be 100% pass/fail
+- **Context dependency**: Performance varies by data distribution, user behavior, time of day
+- **Business judgment required**: "Good enough" depends on risk tolerance, cost of errors, competitive benchmarks
+
+**The AI-Adapted Approach:**
+Define "done" with **model performance gates** and **business value milestones**:
+
+```
+Model Performance Gates:
+☑ Accuracy ≥ 83% on held-out test set (matched)
+☑ Performance tested across key user segments (new requirement)
+☑ Edge case behavior documented (new requirement)
+☑ Latency ≤ 200ms at p95 (traditional)
+☑ Monitoring dashboards deployed (new requirement)
+
+Business Value Milestones:
+☑ Shadow deployment shows ≥80% accuracy on live traffic (new)
+☑ Escalation rate ≤15% to human fallback (new)
+☑ Cost per inference ≤ $0.02 (new)
+☑ Model drift detection active (new requirement)
+```
+
+**Critical Insight:**
+"Done" for AI means **ready to learn from production**, not "perfect and unchanging."
+
+---
+
+### Discussion Questions:
+1. Walk through a recent AI feature using the 8-step framework. Did you choose the right lifecycle? What would you do differently?
+2. Which successful AI products (ChatGPT, GitHub Copilot, Netflix, TikTok) use hybrid approaches? What combinations did they use?
+3. For your current project: Are you treating it as Software, AI/ML, GenAI, or Agentic? Should it be a hybrid?
+
+### Key Takeaways:
+- **Different AI types require different product lifecycles** (AI/ML, GenAI, Agentic)
+- **Successful products are often hybrids** that combine multiple approaches
+- **The 8-step framework helps you choose the right approach** before committing to development
+- **Traditional Agile assumes one lifecycle**; AI products often require orchestrating multiple
+- **Velocity isn't meaningful** when story points can't capture research uncertainty across different AI types
+- **Research spikes imply bounded discovery**; AI research is inherently unbounded
+- **"Done" must account for probabilistic performance**, not binary pass/fail
+- The goal isn't to abandon Agile—it's to **adapt it for non-deterministic, multi-lifecycle systems**
+
+---
+
+### Real-World Pattern: How Successful AI Products Adapted Agile
+
+**Case Study: GitHub Copilot's Two-Track Approach**
+
+**Discovery Track (OpenAI Partnership):**
+- 18-month research cycle to develop Codex model
+- Hundreds of experiments on code generation approaches
+- Iterative improvements based on developer feedback
+- Variable-length research cycles (not 2-week sprints)
+
+**Delivery Track (GitHub Product Team):**
+- 2-week sprints for IDE integration
+- Fixed-length cycles for VS Code, JetBrains plugins
+- Predictable engineering velocity
+- Infrastructure work (authentication, telemetry, billing)
+
+**The Handoff:**
+Research validated code generation approach → Engineering integrated it into developer workflows
+
+**Result:** 
+- MVP launched in 18 months (research) + 6 months (product integration)
+- Measurable ROI: 55% faster coding, reduced cognitive load
+- Iterative rollout: Technical preview → Individuals → Teams → Enterprise
+
+**What Made It Work:**
+1. **Separated research uncertainty from delivery commitments**
+2. **Engineering built infrastructure while research validated approach**
+3. **Clear success metrics for both tracks** (model performance + user adoption)
+4. **Phased rollout minimized risk** (tested with developers first)
+
+**Case Study: TikTok's Continuous Experimentation Model**
+
+TikTok doesn't do traditional sprints. They run **continuous experimentation at massive scale**:
+
+**Their Agile Adaptation:**
+- No fixed sprint commitments—prioritize by experiment velocity
+- Thousands of A/B tests running simultaneously
+- Models retrain daily based on production data
+- Release planning = experiment prioritization
+
+**Why Traditional Agile Would Fail Here:**
+- Can't commit to "improve engagement by X%" in a 2-week sprint
+- Velocity is meaningless when experiments have 10% success rate
+- "Done" means "learned from production," not "shipped complete"
+
+**What They Measure Instead:**
+- Experiments per week (throughput)
+- Time to validate hypothesis
+- % of experiments that improve core metrics
+- Speed of rolling out winning experiments
+
+**The Pattern:** TikTok treats their entire product as an **experimentation pipeline**, not a feature roadmap. This is the extreme end of AI-adapted Agile.
+
+---
 ---
 
 ## Lesson 1: Why Traditional Agile Falls Short for Agentic AI Products
