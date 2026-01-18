@@ -16,7 +16,8 @@ Two-track development: research cycles + engineering sprints
 Sprint planning with experimentation buffers
 Success metrics beyond velocity (model performance gates, user value milestones)
 
-### Lesson 3: Story Mapping for Agentic AI Features
+### Lesson 3: Story Mapping for Agentic AI Features [here](https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/ai_pm_lesson3.md)
+
 Writing user stories for ML-powered features
 Acceptance criteria that account for model uncertainty
 Prioritization frameworks: RICE for Agentic AI (incorporating technical feasibility)
