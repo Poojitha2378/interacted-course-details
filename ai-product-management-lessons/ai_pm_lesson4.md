@@ -1,5 +1,72 @@
 ## Lesson 4: Release Planning with Model Iterations
 
+### MVP vs. MEP: Different Product Approaches for Different AI Types
+
+Before discussing accuracy thresholds, you need to understand that **AI products require a fundamentally different "minimum" than traditional products**.
+
+#### Traditional MVP (Minimum Viable Product)
+
+**Philosophy:** Ship the smallest feature set that delivers value
+**Goal:** Learn from users quickly with minimal investment
+**Success:** Users adopt the basic feature, provide feedback
+**Example:** Launch a task management app with just "create task" and "mark complete"—no tags, no due dates, no collaboration yet
+
+**Why MVP Fails for Agentic AI:**
+An agentic AI that only "kind of works" doesn't deliver value—it creates frustration. Imagine a customer service agent that handles 60% of queries correctly. Users won't trust it. They'll bypass it entirely.
+
+#### MEP (Minimum Experienceable Product) for Agentic AI
+
+**Philosophy:** Ship the smallest scope where AI can demonstrate autonomous value
+**Goal:** Prove the AI can complete end-to-end workflows reliably in a constrained domain
+**Success:** Users trust the AI to handle specific tasks without constant supervision
+**Example:** Launch a customer service agent that ONLY handles password resets—but does it perfectly (95%+ success rate)
+
+**The Critical Difference:**
+
+| Dimension | Traditional MVP | Agentic MEP |
+|-----------|----------------|-------------|
+| Scope | Broad features, basic functionality | Narrow scope, deep capability |
+| Accuracy | "Good enough" (70-80%) | Must be reliable (90-95%+) |
+| User Experience | "This is useful but incomplete" | "This actually works autonomously" |
+| Trust Building | Improve features over time | Prove autonomous capability first |
+| Release Strategy | Ship fast, iterate on features | Ship narrow, prove reliability, expand scope |
+
+**Real-World Examples:**
+
+**MEP Success: GitHub Copilot**
+- **Narrow Scope**: Code completion and generation (not full app development)
+- **Deep Capability**: 55% of code accepted without modification
+- **Trust Building**: Developers experienced value immediately—the AI genuinely helped
+- **Expansion**: Started with simple completions → function generation → multi-file context → now chat-based assistance
+
+**MEP Failure Avoided: ChatGPT**
+- **What they didn't do**: Launch as "AI that answers ANY question about EVERYTHING"
+- **What they did**: Launched as "research preview" with clear limitations
+- **Scope management**: Text-only initially (no images, no web browsing, no code execution)
+- **Trust building**: Set expectations low ("may produce incorrect information"), then exceeded them
+- **Expansion**: Text → images → web browsing → code execution → vision → voice
+
+**Traditional MVP Failure: Early AI Assistants (Siri, Alexa in 2011-2014)**
+- **Broad Scope**: Promised to "do anything" with voice commands
+- **Low Accuracy**: 40-60% intent recognition, frequent misunderstandings
+- **User Experience**: Frustration—easier to just type or tap
+- **Trust Erosion**: Users stopped trying after repeated failures
+- **Learning**: Broad scope + low accuracy = failed product
+
+#### Applying MEP to Your Agentic AI Product
+
+**Step 1: Identify the Narrowest Valuable Scope**
+
+Instead of: "AI agent that handles all customer support"
+Start with: "AI agent that handles 3 specific, high-frequency queries"
+
+**Example Scope Definitions:**
+
+**Too Broad (Traditional MVP thinking):**
+
+
+## Lesson 4: Release Planning with Model Iterations
+
 ### MVP Thresholds: What Accuracy is "Good Enough"?
 
 The hardest question in AI product management: **When do we ship?**
