@@ -61,7 +61,7 @@ DELIVERY TRACK (Fixed Sprints)
 **The Handoff:**
 Week 8: Research validates RAG approach → Engineering begins integration sprint with known parameters
 
-#### Sprint Planning with Experimentation Buffers
+### Sprint Planning with Experimentation Buffers
 
 **Traditional Sprint Planning:**
 ```
@@ -122,7 +122,7 @@ Total: 16 pts (14 pt buffer → research not ready yet)
 
 **Notice:** Engineering didn't wait for research to complete. They built foundational infrastructure. When research validated the approach, integration happened in Sprint 3 with minimal risk.
 
-#### Success Metrics Beyond Velocity
+### Success Metrics Beyond Velocity
 
 **Traditional Agile Metrics:**
 - Velocity: Story points completed per sprint
