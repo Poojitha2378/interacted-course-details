@@ -111,7 +111,7 @@ Uncertainty Factors:
 **The Critical Addition: Confidence-Based Workflows**
 Notice the fallback strategy includes **confidence thresholds**. This allows the system to "know what it doesn't know"—a key pattern for AI user stories.
 
-#### Acceptance Criteria That Account for Model Uncertainty
+### Acceptance Criteria That Account for Model Uncertainty
 
 **Traditional Acceptance Criteria:**
 ```
@@ -211,7 +211,7 @@ And [fallback behavior when threshold not met]
 3. **Feedback loops** (log false positives for retraining)
 4. **Business trade-offs made explicit** (prefer false positives to missed failures)
 
-#### Prioritization Frameworks: RICE for Agentic AI
+### Prioritization Frameworks: RICE for Agentic AI
 
 Traditional RICE scoring:
 - **R**each: How many users affected
