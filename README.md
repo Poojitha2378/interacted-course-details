@@ -24,6 +24,6 @@ Adapting Agile for Agentic AI Product Development
 
 ### Lesson 4: Release Planning with Model Iterations [here](https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/ai_pm_lesson4.md)
 
-- MVP thresholds for Agentic AI features (what accuracy is "good enough"?)
+- MVP vs. MEP: Different Product Approaches for Different AI Types (what accuracy is "good enough"?)
 - Phased rollouts and shadow deployments
 - Planning for model retraining and drift
