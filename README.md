@@ -4,8 +4,8 @@ A practical guide for AI Product Managers
 ## Chapter 1: Translating AI Strategy into Delivery
 Adapting Agile for Agentic AI Product Development
 
-### Lesson 1: Why Traditional Agile Falls Short for Agentic AI Products 
-link https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/ai_pm_lesson1.md
+### Lesson 1: Why Traditional Agile Falls Short for Agentic AI Products [here](https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/ai_pm_lesson1.md)
+
 The uncertainty paradox: unpredictable model performance vs. sprint commitments
 Research spikes vs. feature sprints
 Defining "done" when accuracy is probabilistic
