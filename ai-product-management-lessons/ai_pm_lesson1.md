@@ -362,60 +362,7 @@ Q4:
 
 ---
 
-### Capstone Exercise: Release Plan for AI-Powered Feature
-
-**Scenario: Your team is building an AI-powered invoice processing system**
-
-**Model Performance:**
-- Current accuracy: 89% on test data (standard invoices)
-- Edge cases: 76% accuracy (handwritten, non-English, unusual formats)
-- Latency: 3.2 seconds per invoice
-- Cost: $0.08 per invoice
-
-**Business Context:**
-- Finance team processes 5,000 invoices/month
-- Current process: 4 minutes per invoice (manual data entry)
-- Error rate: 2% (mostly typos, wrong amounts)
-- Cost of errors: $500 per error on average
-
-**Your Task: Create a phased rollout plan**
-
-**Questions to Address:**
-1. What accuracy threshold will you set for MVP? Why?
-2. What's your shadow deployment strategy? (Duration, metrics to track)
-3. How will you phase the rollout? (%, user segments, timeline)
-4. What's your graduated automation strategy? (Assist → Augment → Automate)
-5. What's your retraining plan? (Cadence, triggers, capacity allocation)
-
-**Template:**
-```
-PHASE 1: Shadow Deployment (Weeks ?)
-- Goal: [?]
-- Metrics: [?]
-- Success criteria: [?]
-
-PHASE 2: Controlled Rollout
-- Week X: ?% rollout to [which user segment?]
-- Week Y: ?% rollout
-- Week Z: 100% rollout
-- Rollback triggers: [?]
-
-PHASE 3: Automation Levels
-- Month 1-2: [Assist/Augment/Automate?] - [Why?]
-- Month 3-4: [Assist/Augment/Automate?] - [Why?]
-- Month 5+: [Assist/Augment/Automate?] - [Why?]
-
-ONGOING: Retraining Plan
-- Cadence: [Weekly/Monthly/Quarterly?]
-- Drift detection: [Metrics to monitor?]
-- Capacity allocation: [% of team?]
-```
-
----
-
-## Chapter 1 Summary: Key Takeaways
-
-### Chapter 1 Summary: Key Takeaways
+### Key Takeaways
 
 ### The Core Problem
 Traditional Agile assumes deterministic, single-lifecycle systems. AI products are probabilistic and often **hybrid** (combining Software, AI/ML, GenAI, and Agentic approaches). This creates tensions around:
@@ -514,21 +461,3 @@ Why organizations need specialized AI PMs:
 **The Bottom Line:** AI PM is not "PM with models." It's orchestrating experimentation pipelines, managing probabilistic products across multiple lifecycles, and ensuring AI creates measurable business value—not just technical achievements.
 
 ---
-
-## Next Steps: Preparing for Chapter 2
-
-Chapter 2 dives into **Research Cycles & Model Development**, where you'll learn:
-- How to evaluate pre-trained models for your specific lifecycle needs
-- When to fine-tune vs. use prompt engineering vs. build custom models
-- The difference between reasoning models and speed models for agentic systems
-- What agentic AI is and when your problem actually needs autonomy
-- How to work effectively with ML research teams across different AI approaches
-
-**Pre-Reading:**
-- Review your current product roadmap using the 8-step framework: Which features are Software? AI/ML? GenAI? Agentic? Hybrid?
-- Identify one feature to pilot with two-track development
-- Calculate current team capacity allocation: What % goes to each lifecycle type? Is it aligned with your product mix?
-- Map cross-lifecycle dependencies: Where does GenAI research hand off to Software engineering?
-
-**Discussion Prompt for Your Team:**
-"If we adopted lifecycle-aware two-track development, what would each track focus on? How would we handle handoffs between Software, AI/ML, GenAI, and Agentic components?"
