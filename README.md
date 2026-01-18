@@ -22,7 +22,8 @@ Writing user stories for ML-powered features
 Acceptance criteria that account for model uncertainty
 Prioritization frameworks: RICE for Agentic AI (incorporating technical feasibility)
 
-### Lesson 4: Release Planning with Model Iterations
+### Lesson 4: Release Planning with Model Iterations [here](https://github.com/Poojitha2378/interacted-course-details/blob/main/ai-product-management-lessons/ai_pm_lesson4.md)
+
 MVP thresholds for Agentic AI features (what accuracy is "good enough"?)
 Phased rollouts and shadow deployments
 Planning for model retraining and drift
