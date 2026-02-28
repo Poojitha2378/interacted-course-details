@@ -2,8 +2,6 @@
 
 > **Chapter 2 · AI Product Management Course**
 
-[← Lesson 1](../lesson1/README.md) | [Lesson 3 →](../lesson3/README.md)
-
 ---
 
 ## Overview
@@ -137,5 +135,3 @@ A critical product decision that emerged in 2024–2025 is the choice between re
 - Measure cost at projected scale before committing to a model
 
 ---
-
-[← Lesson 1: The Agentic AI Development Lifecycle](../lesson1/README.md) | [Lesson 3: Transfer Learning to Fine-tuning →](../lesson3/README.md)
