@@ -1,6 +1,6 @@
 # Lesson 2: Evaluating Pre-trained Models
 
-> **Chapter 2 · AI Product Management Certification Course**
+> **Chapter 2 · AI Product Management Course**
 
 [← Lesson 1](../lesson1/README.md) | [Lesson 3 →](../lesson3/README.md)
 
