@@ -2,8 +2,6 @@
 
 > **Chapter 2 · AI Product Management Course**
 
-[← Chapter Overview](../README.md) | [Lesson 2 →](../lesson2/README.md)
-
 ---
 
 ## Overview
@@ -105,5 +103,3 @@ This is the **right default for most product teams**. Start here and only move t
 - Context quality is almost always the real bottleneck, not model capability
 
 ---
-
-[← Chapter Overview](../README.md) | [Lesson 2: Evaluating Pre-trained Models →](../lesson2/README.md)
