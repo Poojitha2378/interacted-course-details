@@ -1,6 +1,6 @@
 # Lesson 4: Introduction to Agentic AI
 
-> **Chapter 2 · AI Product Management Certification Course**
+> **Chapter 2 · AI Product Management Course**
 
 [← Lesson 3](../lesson3/README.md) | [Lesson 5 →](../lesson5/README.md)
 
