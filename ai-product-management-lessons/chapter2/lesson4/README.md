@@ -2,8 +2,6 @@
 
 > **Chapter 2 · AI Product Management Course**
 
-[← Lesson 3](../lesson3/README.md) | [Lesson 5 →](../lesson5/README.md)
-
 ---
 
 ## Overview
@@ -172,5 +170,3 @@ In every agentic use case, the PM's most important contributions are:
 - The PM's job in agent design: scope authority, design failure modes, set human-in-the-loop checkpoints
 
 ---
-
-[← Lesson 3: Transfer Learning to Fine-tuning](../lesson3/README.md) | [Lesson 5: Working with Research Teams →](../lesson5/README.md)
