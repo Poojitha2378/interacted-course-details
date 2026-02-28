@@ -27,3 +27,35 @@ Adapting Agile for Agentic AI Product Development
 - MVP vs. MEP: Different Product Approaches for Different AI Types (what accuracy is "good enough"?)
 - Phased rollouts and shadow deployments
 - Planning for model retraining and drift
+
+## Chapter 2: Research Cycles & Model Development
+Understanding the technical foundation without being an engineer
+
+### Lesson 1: The Agentic AI Development Lifecycle
+- Problem framing: classification vs. generation vs. recommendation
+- Traditional ML pipeline: data → training → evaluation → deployment
+- When to build vs. buy vs. use pre-trained models
+
+### Lesson 2: Evaluating Pre-trained Models
+- LLM landscape: GPT-4, Claude, Llama, Gemini (capabilities & tradeoffs)
+- Benchmarking for your use case: accuracy, latency, cost
+- Prompt engineering as product iteration
+- Model selection criteria: reasoning models vs. speed models
+
+### Lesson 3: Transfer Learning to Fine-tuning
+- What is transfer learning? (high-level concept)
+- When fine-tuning makes sense (custom domain, brand voice, specific behavior)
+- Cost-benefit analysis: API calls vs. fine-tuned models
+- RAG (Retrieval-Augmented Generation) as an alternative
+
+### Lesson 4: Introduction to Agentic AI
+- What are AI agents? (autonomous goal-directed systems)
+- Architecture basics: reasoning + tools + memory
+- Why certain models work better for agents (reasoning capability, reliability)
+- Use cases: customer service, data analysis, workflow automation
+
+### Lesson 5: Working with Research Teams
+- Setting experiment goals and success metrics
+- The research-to-production handoff
+- Communicating model limitations to stakeholders
+
