@@ -62,5 +62,3 @@ This chapter gives you the foundational mental models to hold your own in those 
 5. You are presenting a new AI feature to your executive team. The model hallucinates approximately 5% of the time on a specific input type. How do you communicate this limitation in a way that is honest, actionable, and does not kill the initiative?
 
 ---
-
-*← Chapter 1 | Chapter 3: Product Strategy for AI →*
