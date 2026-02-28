@@ -2,8 +2,6 @@
 
 > **Chapter 2 · AI Product Management Course**
 
-[← Lesson 2](../lesson2/README.md) | [Lesson 4 →](../lesson4/README.md)
-
 ---
 
 ## Overview
@@ -163,5 +161,3 @@ Each layer of context added was a product decision, not a model decision. This i
 - RAG is a context engineering discipline — the design of your retrieval system is your product moat
 
 ---
-
-[← Lesson 2: Evaluating Pre-trained Models](../lesson2/README.md) | [Lesson 4: Introduction to Agentic AI →](../lesson4/README.md)
