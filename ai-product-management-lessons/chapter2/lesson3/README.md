@@ -1,6 +1,6 @@
 # Lesson 3: Transfer Learning to Fine-tuning
 
-> **Chapter 2 · AI Product Management Certification Course**
+> **Chapter 2 · AI Product Management Course**
 
 [← Lesson 2](../lesson2/README.md) | [Lesson 4 →](../lesson4/README.md)
 
