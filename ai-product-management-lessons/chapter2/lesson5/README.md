@@ -1,6 +1,6 @@
 # Lesson 5: Working with Research Teams
 
-> **Chapter 2 · AI Product Management Certification Course**
+> **Chapter 2 · AI Product Management Course**
 
 [← Lesson 4](../lesson4/README.md) | [Chapter Overview →](../README.md)
 
