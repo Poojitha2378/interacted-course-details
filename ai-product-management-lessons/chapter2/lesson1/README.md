@@ -1,6 +1,6 @@
 # Lesson 1: The Agentic AI Development Lifecycle
 
-> **Chapter 2 · AI Product Management Certification Course**
+> **Chapter 2 · AI Product Management Course**
 
 [← Chapter Overview](../README.md) | [Lesson 2 →](../lesson2/README.md)
 
