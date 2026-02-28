@@ -2,8 +2,6 @@
 
 > **Chapter 2 · AI Product Management Course**
 
-[← Lesson 4](../lesson4/README.md) | [Chapter Overview →](../README.md)
-
 ---
 
 ## Overview
@@ -158,5 +156,3 @@ The fastest way to erode a research relationship is to constantly pull researche
 - Invest in the long-term research relationship, not just individual project handoffs
 
 ---
-
-[← Lesson 4: Introduction to Agentic AI](../lesson4/README.md) | [Chapter Overview →](../README.md)
