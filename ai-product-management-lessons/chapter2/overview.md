@@ -1,6 +1,5 @@
 # Chapter 2: Research Cycles & Model Development
 
-> **AI Product Management Certification Course**
 > *Understanding the Technical Foundation Without Being an Engineer*
 
 ---
@@ -8,12 +7,6 @@
 ## 📖 Chapter Overview
 
 This chapter bridges the gap between cutting-edge AI research and practical product decisions. You will learn how models are built, when to use them off-the-shelf versus fine-tuning them, what makes AI agents tick, and — critically — how context engineering has become the new competitive moat for AI PMs.
-
-| | |
-|---|---|
-| **Lessons** | 5 |
-| **Estimated reading time** | 45–60 min |
-| **Includes** | Decision frameworks, comparison tables, PM checklists |
 
 ---
 
@@ -67,16 +60,6 @@ This chapter gives you the foundational mental models to hold your own in those 
 3. Describe a scenario where RAG would be clearly superior to fine-tuning. Now describe one where fine-tuning would be clearly superior. What is the key difference?
 4. What does "context engineering" mean in practice for a product you are building or familiar with? What information should the model always have access to, and what should be retrieved on demand?
 5. You are presenting a new AI feature to your executive team. The model hallucinates approximately 5% of the time on a specific input type. How do you communicate this limitation in a way that is honest, actionable, and does not kill the initiative?
-
----
-
-## 📚 Further Reading
-
-- **"Context Engineering for Mortals"** — Aakash Gupta & Miqdad Jaffer *(Product Growth Newsletter)* — The definitive guide for AI PMs on engineering the context layer.
-- **"Effective Context Engineering for AI Agents"** — Anthropic Engineering Blog
-- **"Context Engineering for AI Agents: Lessons from Building Manus"** — Manus Blog — Battle-tested insights from a team that rebuilt their agent architecture four times.
-- **"Moving to Higher Ground: Product Management in the Age of AI"** — Reforge Blog
-- **Anthropic Model Documentation** — [docs.anthropic.com](https://docs.anthropic.com)
 
 ---
 
